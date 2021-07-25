@@ -1,0 +1,9 @@
+**/env
+*.pyc
+**/.vscode
+*.zip
+*.npy
+*.h5
+**/.idea
+**/node_modules
+*.log
