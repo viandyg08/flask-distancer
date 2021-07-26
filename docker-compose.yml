@@ -5,7 +5,7 @@ services:
     build: .
     command: >
       sh -c "flask run --host 0.0.0.0"
-    container_name: flask_neuronet
+    container_name: flask_distancer
     environment:
       - YANDEX_API_KEY=$YANDEX_API_KEY
     volumes:
