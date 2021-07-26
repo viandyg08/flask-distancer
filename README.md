@@ -1,8 +1,8 @@
-# How to run
+## How to run
 
 - Acquire API Key from [Yandex maps](https://yandex.ru/dev/maps/geocoder/doc/desc/concepts/about.html)
 
-## 1) Docker-compose:
+### 1) Docker-compose:
 
 - Add environment variable for YANDEX_API_KEY by running one of the command below:
   ```
@@ -27,7 +27,7 @@ OR
   ```
 - open with `localhost:5000`
 
-## 2) Without Docker:
+### 2) Without Docker:
 
 - Add environment variable for YANDEX_API_KEY by running one of the command below:
   ```
@@ -51,7 +51,7 @@ OR
   flask run
   ```
   
-# Usage
+## Usage
 Assuming that Flask is on `localhost:5000`, use the following format:
 ```
 http://localhost:5000/?address=someaddress
@@ -62,7 +62,7 @@ http://localhost:5000/?address=Sheremetyevo Airport
 
 - Error logs will be written to `errors.log` file
 
-# Run Tests
+## Run Tests
 ```
 python distancer\test_response.py
 ```
