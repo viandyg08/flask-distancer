@@ -59,3 +59,8 @@ http://localhost:5000/?address=someaddress
 # For Example:
 http://localhost:5000/?address=Sheremetyevo Airport
 ```
+
+# Run Tests
+```
+python distancer\test_response.py
+```

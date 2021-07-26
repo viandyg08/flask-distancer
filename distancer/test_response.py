@@ -1,7 +1,7 @@
 import unittest
 from unittest import mock
 
-from distancer.utils import YandexResponse
+from utils import YandexResponse
 from werkzeug.exceptions import NotFound
 
 
