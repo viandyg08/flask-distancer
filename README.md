@@ -60,6 +60,8 @@ http://localhost:5000/?address=someaddress
 http://localhost:5000/?address=Sheremetyevo Airport
 ```
 
+- Error logs will be written to `errors.log` file
+
 # Run Tests
 ```
 python distancer\test_response.py
